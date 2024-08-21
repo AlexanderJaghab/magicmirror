@@ -87,7 +87,7 @@ let config = {
 						fetchInterval: 7 * 24 * 60 * 60 * 1000,
 						symbol: "calendar-check",
 						url: "https://calendar.google.com/calendar/u/4?cid=YWphZ2hhYmx1Y0BnbWFpbC5jb20",
-						timeFormat: absolute,
+						timeFormat: "absolute",
 						maximumEntries: 25,
 						maximumNumberOfDays: 2,
 						maxTitleLength: 50,
