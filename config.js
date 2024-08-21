@@ -65,15 +65,15 @@ let config = {
 		},
 		{
 			module: "clock",
-			position: "top_left"
+			position: "top_left",
 			config: {
 				clock: {
-				timezone: America/Chicago
-				displaySeconds: true
-				showDate: true 
-				showSunTimes: true
-				lat: 41.99490814522176
-				lon: -87.6579318056822
+				timezone: America/Chicago,
+				displaySeconds: true,
+				showDate: true,
+				showSunTimes: true,
+				lat: 41.99490814522176,
+				lon: -87.6579318056822,
 				}
 			}
 		},
@@ -86,18 +86,18 @@ let config = {
 					{
 						fetchInterval: 7 * 24 * 60 * 60 * 1000,
 						symbol: "calendar-check",
-						url: "https://calendar.google.com/calendar/u/4?cid=YWphZ2hhYmx1Y0BnbWFpbC5jb20"
-						timeFormat: absolute
-						maximumEntries: 25
-						maximumNumberOfDays: 2
-						maxTitleLength: 50
+						url: "https://calendar.google.com/calendar/u/4?cid=YWphZ2hhYmx1Y0BnbWFpbC5jb20",
+						timeFormat: absolute,
+						maximumEntries: 25,
+						maximumNumberOfDays: 2,
+						maxTitleLength: 50,
 					}
 				]
 			}
 		},
 		{
 			module: "compliments",
-			position: "lower_third"
+			position: "lower_third",
 			config: {
 				compliments: {
 						day_sunny: [
@@ -120,7 +120,7 @@ let config = {
 			config: {
 				weatherProvider: "openmeteo",
 				type: "current",
-				lat: 41.99490814522176
+				lat: 41.99490814522176,
 				lon:  -87.6579318056822
 			}
 		},
