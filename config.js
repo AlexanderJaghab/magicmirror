@@ -53,11 +53,11 @@ let config = {
 			module: "alert",
 		},
 		{
-        module: 'MMM-ModuleScheduler'
-		   config: {
-            // SHOW ALL MODULES AT 06:00 AND HIDE AT 22:00 EVERY DAY
-            global_schedule: {from: '0 7 * * *', to: '0 22 * * *' },
-        }
+       			module: 'MMM-ModuleScheduler',
+			config: {
+          		  // SHOW ALL MODULES AT 07:00 AND HIDE AT 22:00 EVERY DAY
+            			global_schedule: {from: '0 7 * * *', to: '0 22 * * *' }
+        			}
 		},
 		{
 			module: "updatenotification",
