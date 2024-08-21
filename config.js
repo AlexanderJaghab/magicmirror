@@ -68,7 +68,7 @@ let config = {
 			position: "top_left",
 			config: {
 				clock: {
-				timezone: America/Chicago,
+				timezone: "America/Chicago",
 				displaySeconds: true,
 				showDate: true,
 				showSunTimes: true,
